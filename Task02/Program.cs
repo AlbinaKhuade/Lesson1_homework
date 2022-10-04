@@ -6,9 +6,9 @@
 // a = 2; b = 10 -> max = 10
 // a = -9; b = -3 -> max = -3
 
-Console.WriteLine("Введите первое целое число: ");  //если не только целое число, то исправить!!!!
+Console.WriteLine("Введите первое целое число: "); 
 int number1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе целое число: ");  //если не только целое число, то исправить!!!!
+Console.WriteLine("Введите второе целое число: "); 
 int number2 = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 

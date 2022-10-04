@@ -15,7 +15,7 @@ int max = 0;
 if (number1 < number2)
 {
     max = number2;
-    Console.WriteLine($"max = {max}");
+    Console.WriteLine($"a = {number1}; b = {number2} -> max = {max}");
 }
 
 else
@@ -23,7 +23,7 @@ else
     if (number1 > number2)
     {
         max = number1;
-        Console.WriteLine($"max = {max}");
+        Console.WriteLine($"a = {number1}; b = {number2} -> max = {max}");
     }
 
     else

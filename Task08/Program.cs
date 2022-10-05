@@ -9,13 +9,16 @@
 
 Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int temp = 1;
-int count = 0;
+int count = 2;
 
-Console.WriteLine($"Все четные числа от 1 до {number}: ");
-while (count < number)
+if (number < 2) Console.WriteLine($"От 1 до {number} нет четных чисел");
+else 
 {
-    if (temp % 2 == 0) Console.Write($"{temp} ");
-    count++;
-    temp++;
+    Console.WriteLine($"Все четные числа от 1 до {number}: ");
+    while (count < number + 1)
+    {
+        if (count % 2 == 0) Console.Write($"{count} ");
+        count = count + 2; 
+    }
 }
+
